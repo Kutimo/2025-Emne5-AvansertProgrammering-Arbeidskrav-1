@@ -1,4 +1,4 @@
-@arbeidskrav_del_1_HostAddress = http://localhost:5039
+@arbeidskrav_del_1_HostAddress = http://localhost:5193
 
 GET {{arbeidskrav_del_1_HostAddress}}/weatherforecast/
 Accept: application/json
