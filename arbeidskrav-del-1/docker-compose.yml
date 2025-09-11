@@ -1,0 +1,9 @@
+services:
+  db:
+    image: mysql:8.1
+    container_name: books-db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: books
+    ports:
+      - "3306:3306"
